@@ -1,0 +1,9 @@
+The logic is very simple 
+Split Given array into 2 arrys name A and B
+Array A contains elements from index 0 to d-1 where d is the key.
+Similary B conians the elemnts from index d-1 to n.
+if A is shorter than divide b into 2 sub arrrays , if one of those sub arrays are equal are of eaual to size of A then Swap A and that sub array
+Similary DO itfor B 
+Finally when A & B are of equal sizes Block Swap them.
+Time Complecity O(n)
+Space Complexity O(1)
